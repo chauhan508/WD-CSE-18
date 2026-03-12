@@ -15,7 +15,74 @@
         else{
             console.log("not eligible for voting");
         }
+        //switch case
+        let grade="A";
+        switch(grade){
+            case"A" : result = "first divsion"
+            break;
+             case"B" : result = "second divsion"
+            break;
+             case"C" : result = "third divsion"
+            break;
+            default:result="fail";
 
+            
+        }
+        console.log(result);
+
+        //if else ladder
+
+        let Grade="A";
+        if(Grade="A"){
+            console.log("first divsion");
+        }
+
+        else if(Grade="B"){
+            console.log("second divsion");
+        }
+        else if(Grade="C"){
+            console.log("third divsion");
+        }
+        else {
+            console.log("fail");
+        }
+
+        let marks = 80;
+        if (marks>=90){
+            console.log("first divison");
+
+        }
+        else if (marks<90 && marks >=70 ){
+            console.log("second divison");
+        }
+        else if (marks<70&& marks >=40 ){
+            console.log("third divison");
+        }
+        else{ 
+            console.log("fail");
+        }
+
+        let averageMarks;
+        let studentMarks =[80, 90, 76,56 , 86];
+        for (let i=0; i<studentMarks.length; i++){
+           sum += studentMarks[i];
+
+        }
+        averageMarks= sum/ studentMarks.length;
+         if (averageMarks>=90){
+            console.log("first position");
+
+        }
+        else if (averageMarks<90 && averageMarks >=70 ){
+            console.log("second divison");
+        }
+        else if (marks<70&& marks >=40 ){
+            console.log("third divison");
+        }
+        console.log("Average marks :" ,averageMarks);
+        
+
+        
     </script>
     
 </body>
