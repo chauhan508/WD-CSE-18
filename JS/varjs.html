@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var myName= "DUSHYANT";
+    console.log("myname is" + myName);
+    console.log(typeof(myName));
+    //number
+    var myMob= 8368767670;
+    console.log("my mobile no is " + myMob);
+    console.log(typeof(myMob));
+
+    //boolen
+    var isMarried=true;
+    console.log(myName + "is married?" + isMarried);
+    console.log(typeof(isMarried));
+
+    
+
+    //null
+    var myEmail=null;
+    console.log(myName + "myEmail" + myEmail);
+    console.log(typeof(myEmail));
+
+    //bight
+    var myValue= 123456789;
+    console.log(myValue);
+    console.log(typeof(myValue));
+
+    //symbol
+    var var1=Symbol("hellow");
+    var var2=Symbol("hellow");
+    console.log(var1==var2);
+    console.log(typeof(var1) + "and " + typeof(var2));
+
+    let myInfo={
+        name: "dushyant" , age:23 , mob:123345 , email : "dushyant@gmail.com",
+        section: 18
+
+
+    }
+    console.log(myInfo);
+    console.log(Object.keys(myInfo).length);
+
+    console.log(myInfo.age);
+    //array
+    let studentDetails=["dushyant", 18, false , "dushyant@123"];
+    console.log(studentDetails.length)
+
+
+for(i=0; i<studentDetails.length; i++){
+    console.log(studentDetails[i]);
+}
+//function
+function myNum(){
+    let num1=6;
+    let num2=12;
+    let result = num1 +num2;
+    console.log("Addition of 2 numbers is :" + (num1+num2));
+    console.log(result);
+
+
+}
+myNum();
+
+
+
+   
+    
+
+
+
+
+    </script>
+</body>
+</html>
