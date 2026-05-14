@@ -125,8 +125,36 @@
         let sum= num.reduce((total,n) =>total+n);
         console.log(sum);
 
+        let sorting= num.filter(n=>n>3);
+        console.log(sorting);
 
-         </script>
+        //forEach
+        num.foreach((n) => console.log(n*2));
+        //iife
+
+        (function(){
+            console.log("MODERN JS");
+        })();
+        //short code for loop
+        (msg=>console.log("hello react"))();
+
+//local storage
+let userInfo={
+    name : 'dushyant',
+    age: 18,
+    mob: 123485976843,
+    email: "dushyant@gmail.com"
+};
+console.log(userInfo);
+
+ localStorageh.setItem('userInfo', JSON.stringify(userInfo));
+
+ const saverUser = JSON.parse(localStorage.getItem('userInfo'));
+ console.log(saverUser.name);
+
+
+
+ </script>
     
 </body>
 
